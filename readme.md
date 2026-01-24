@@ -1,6 +1,6 @@
 # 📊 Price Intelligence System
 
->[🇧🇷 Leia em Português](./README.pt-br.md)
+> 🇧🇷 [Leia em Português](./README.pt-br.md)
 
 A distributed **price monitoring and intelligence system** designed for learning and experimentation, combining **Go** for high-performance data collection and **Python** for analytics, visualization, and alerts.
 
