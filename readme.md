@@ -1,4 +1,4 @@
-# 📊 Price Intelligence System
+# Price Intelligence System
 
 > 🇧🇷 [Leia em Português](./README.pt-br.md)
 
