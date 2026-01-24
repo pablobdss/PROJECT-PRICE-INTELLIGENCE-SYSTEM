@@ -9,3 +9,5 @@ O projeto foi pensado para evoluir gradualmente, explorando:
 - Sistemas distribuídos
 - Design orientado a eventos
 - Fundamentos de engenharia de dados
+
+Ele evolui intencionalmente em etapas, partindo de um sistema simples baseado em HTTP até uma arquitetura totalmente desacoplada e orientada a mensagens.
