@@ -1,0 +1,6 @@
+{
+  "product_id": "string",
+  "price": 0.0,
+  "currency": "BRL",
+  "timestamp": "ISO-8601"
+}
