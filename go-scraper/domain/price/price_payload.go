@@ -3,8 +3,10 @@ package price
 import "time"
 
 type PriceEvent struct {
-	ProductID string    `json:"product_id"`
-	Price     float64   `json:"price"`
-	Currency  string    `json:"currency"`
-	Timestamp time.Time `json:"timestamp"`
+	ProductID string
+	Price     float64
+	Store     string
+	URL       string
+	Currency  string
+	Timestamp time.Time
 }
