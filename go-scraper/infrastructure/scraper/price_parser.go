@@ -44,11 +44,12 @@ func parsePrice(raw string) (float64, string) {
 		cleanNum = strings.ReplaceAll(cleanNum, ",", ".") 
 	}
 
-	cleanNum = strings.ReplaceAll(cleanNum, ",", "") 
+	if decimalSeparator == "." {
+		cleanNum = strings.ReplaceAll(cleanNum, ",", "") 
+	}
 	
-
 	val, err := strconv.ParseFloat(cleanNum, 64)
-	
+
 	if err != nil {return 0, detectedCurrency}
 
 	return val, detectedCurrency
