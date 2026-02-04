@@ -37,6 +37,7 @@ func (s *HTTPPriceSender) Send(event price.PriceEvent) error {
 		s.endpoint,
 		bytes.NewBuffer(body),
 	)
+
 	if err != nil {
 		return fmt.Errorf("erro ao criar requisição: %w", err)
 	}
@@ -47,6 +48,7 @@ func (s *HTTPPriceSender) Send(event price.PriceEvent) error {
 	if err != nil {
 		return fmt.Errorf("erro de conexão (timeout ou rede): %w", err)
 	}
+
 	defer resp.Body.Close()
 
 	if resp.StatusCode < 200 || resp.StatusCode >= 300 {
