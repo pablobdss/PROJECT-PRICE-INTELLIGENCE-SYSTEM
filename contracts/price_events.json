@@ -1,8 +1,12 @@
 {
-  "product_id": "string",
-  "price": 0.0,
-  "loja": "...",
-  "url": "...",
-  "currency": "BRL",
-  "timestamp": "ISO-8601"
+  "event_version": "1.0",
+  "data": {
+    "product_id": "...",
+    "price": 0.00,
+    "currency": "...",
+    "store": "...", 
+    "url": "...",
+    "timestamp": "2026-02-05T20:30:00Z",
+    "metadata": {} 
+  }
 }
