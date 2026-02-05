@@ -9,7 +9,7 @@ import (
 type priceEventDTO struct {
 	ProductID string    `json:"product_id"`
 	Price     float64   `json:"price"`
-	Store     string    `json:"loja"`
+	Store     string    `json:"store"`
 	URL       string    `json:"url"`
 	Currency  string    `json:"currency"`
 	Timestamp time.Time `json:"timestamp"`
