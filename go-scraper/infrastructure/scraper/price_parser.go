@@ -46,7 +46,7 @@ func parsePrice(raw string) (float64, string) {
 
 	if decimalSeparator == "." {
 		cleanNum = strings.ReplaceAll(cleanNum, ",", "") 
-	}
+	} 
 	
 	val, err := strconv.ParseFloat(cleanNum, 64)
 
